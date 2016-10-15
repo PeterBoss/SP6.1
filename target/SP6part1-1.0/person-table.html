@@ -1,0 +1,15 @@
+<h2>Person List</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="p in persons">
+            <td>{{p.name}}</td>
+            <td><a href="#{{p.id}}">{{p.id}}</a></td>
+        </tr>
+    </tbody>
+</table>

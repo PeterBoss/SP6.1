@@ -1,0 +1,12 @@
+<form name="personForm" ng-submit="persons.push(person)">
+    <fieldset class="form-group">
+        <input ng-model="person.id" type="text" name="id-input" placeholder="ID"/>
+    </fieldset>
+    <fieldset class="form-group">
+        <input ng-model="person.name" type="text" name="name-input" placeholder="Name"/> 
+    </fieldset>
+    <fieldset class="form-group">
+        <input ng-model="person.age" type="text" name="age-input" placeholder="Age"/>
+    </fieldset>
+    <input type="submit" value="Submit"/>
+</form>
